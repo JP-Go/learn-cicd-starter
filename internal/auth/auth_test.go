@@ -102,7 +102,7 @@ func Test_Success_With_AuthHeader_Wellformed(t *testing.T) {
 		}, {
 			name:     "WellFormed (hash)",
 			input:    "ApiKey cdeb1050d144ff339ab5320b768b308e",
-			expected: "deb1050d144ff339ab5320b768b308e",
+			expected: "cdeb1050d144ff339ab5320b768b308e",
 		},
 		}}
 
