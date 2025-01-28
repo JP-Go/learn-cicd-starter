@@ -6,12 +6,10 @@ import (
 )
 
 type testcase struct {
-	name        string
-	input       string
-	expected    string
-	expectedErr error
-	err         error
-	message     string
+	name     string
+	input    string
+	expected string
+	err      error
 }
 
 func Test_Errors_With_No_AuthHeader(t *testing.T) {
